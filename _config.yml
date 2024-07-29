@@ -1,0 +1,80 @@
+---
+booktitle: Proceedings of 2024 International Conference on Machine Learning and Intelligent
+  Computing
+shortname: MLIC
+volume: '245'
+year: '2024'
+start: &1 2024-04-26
+end: 2024-04-28
+published: 2024-07-29
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: MLIC-2024
+month: 0
+cycles: false
+bibtex_editor: Nianyin, Zeng and Pachori, Ram Bilas
+editor:
+- given: Zeng
+  family: Nianyin
+- given: Ram Bilas
+  family: Pachori
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of 2024 International Conference on Machine Learning and Intelligent Computing
+    Held in Wuhan, China on 26-28 April 2024
+
+  Published as Volume 245 by the Proceedings of Machine Learning Research on 29 July 2024.
+
+  Volume Edited by:
+    Zeng Nianyin
+    Ram Bilas Pachori
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 26--28 Apr
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v245"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v245
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v245
+email: ''
+conference:
+  name: Machine Learning and Intelligent Computing
+  url: https://www.icmlic.org
+  location: Wuhan, China
+  dates:
+  - *1
+  - 2024-04-27
+  - 2024-04-28
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v245/mlic24.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v245/mlic24.bib
